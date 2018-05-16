@@ -5,6 +5,7 @@ header{
   font-weight: bold;
   border-bottom: 1px solid black;
   align-items: center;
+  width: auto;
 }
 a{
   color: black;
@@ -12,9 +13,13 @@ a{
 .logo{
   display:flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 .logo span{
   color: MediumAquamarine;
+}
+.logo img{
+    margin-right: 10px;
 }
 header nav{
   text-align: right;
