@@ -10,8 +10,13 @@ a{
   color: black;
 }
 .logo{
-  display:inline-block;
+  display:flex;
+  align-items: center;
 }
 .logo span{
   color: MediumAquamarine;
+}
+header nav{
+  text-align: right;
+  flex-grow: 1;
 }
