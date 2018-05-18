@@ -31,6 +31,8 @@ header nav{
 }
 .large{
   max-width: 630px;
+  justify-content: space-between;
+  margin: 0;
 }
 .medium{
   max-width: 300px;
@@ -41,7 +43,9 @@ header nav{
   max-width: 240px;
 }
 .story{
-  border: 1px solid black;
+  display:flex;
+  flex-wrap: wrap;
+  display:inline-block;
 }
 .story span{
   margin-top: 0;
@@ -49,8 +53,12 @@ header nav{
 }
 .column{
   display: flex;
-  border: 1px solid black;
   flex-direction: column;
+  display:inline-block;
+  justify-content: space-between;
+}
+.column .large .story{
+  width: 300px;
 }
 .imagemain{
   display: flex;
@@ -73,13 +81,22 @@ h4{
 }
 .image2{
   display: flex;
-  background-image: url("./img-story-2.png")
+  background-image: url("./img-story-2.png");
+  width: 300px;
 }
 .image3{
   display: flex;
-  background-image: url("./img-story-3.png")
+  background-image: url("./img-story-3.png");
+  width: 300px;
 }
 .image1{
   display: flex;
-  background-image: url("./img-story-1.png")
+  background-image: url("./img-story-1.png");
+}
+.mainstory{
+  display:inline-block;
+  justify-content: space-between;
+}
+.mainstory .story{
+  width: 300px;
 }
