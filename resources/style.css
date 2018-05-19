@@ -76,9 +76,9 @@ header nav{
   height:300px;
 }
 p{
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+  font-family: Georgia !important;
+  font-size: 17px !important;
+  color: black !important;
 }
 h4{
   color: black;
