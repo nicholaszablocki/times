@@ -57,6 +57,10 @@ header nav{
   display:inline-block;
   justify-content: space-between;
 }
+.column .large{
+  display:flex;
+  justify-content: space-between;
+}
 .column .large .story{
   width: 300px;
 }
@@ -93,10 +97,7 @@ h4{
   display: flex;
   background-image: url("./img-story-1.png");
 }
-.mainstory{
-  display:inline-block;
+.bottom{
+  display: flex;
   justify-content: space-between;
-}
-.mainstory .story{
-  width: 300px;
 }
